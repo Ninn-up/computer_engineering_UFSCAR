@@ -1,6 +1,5 @@
 Trabalho 3 POO
 Aluna: Nicole Ramos
-RA: 823127
 
 Contexto: 
 A Orquestra Sinfônica Carlos Gomes recebeu uma doação de instrumentos para compor o seu acervo, assim, é necessário cadastrar os novos instrumenos em seu banco de dados considerando o ano de fabricação, a marca, seu estado (novo ou usado), o grupo a que pertencem na orquestra, o tamanho, o modelo e outras informações específicas de cada um; a fim de facilitar que os músicos organizem seus ensaios e apresentações.
