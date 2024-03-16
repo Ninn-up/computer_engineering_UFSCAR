@@ -178,17 +178,14 @@ if __name__ == '__main__':
     print(f'Removendo a chave 12:')
     tree.remover_chave(12)
     tree.show_tree(tree.root)
-    # precisa disso? tree.preorder(tree.root)
 
     print(f'Removendo a chave 30:')
     tree.remover_chave(30)
     tree.show_tree(tree.root)
 
-    # precisa disso? tree.preorder(tree.root)
     print(f'Removendo a chave 43:')
     tree.remover_chave(43)
     tree.show_tree(tree.root)
-    # precisa disso? tree.preorder(tree.root)
 
     print()
     print(f'=== Mostrando o percurso preoder, inorder e postorder ===')
