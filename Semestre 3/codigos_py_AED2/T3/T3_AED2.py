@@ -20,9 +20,6 @@ class Node:
     def __lt__(self, other):
         return self.num < other.num
 
-# ver como criar arvore de caminhos mínimos -> Mesma biblioteca do grafo
-
-
 # Função que busca a distância entre 2 vértices no grafo
 def size_way(g, u, v):
     return g[u][v]['weight']
@@ -65,7 +62,7 @@ def dijkstra(g, s):
     # Verificando o caminho mínimo
     while Q:
         # Retira da fila o vértice de menor prioridade (custo do menor caminho)
-        popped_v = hp.heappop(Q)  # melhorar o nome dessa variável
+        popped_v = hp.heappop(Q) 
 
         # Verifica os vizinhos do vértice removido
         for nbr in list(g.adj[popped_v[1]]):
